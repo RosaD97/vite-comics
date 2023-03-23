@@ -7,8 +7,29 @@ export default {
 </script>
 
 <template>
-    <div>main</div>
+    <div>
+        <div class="container">
+            <h2>-Content goes here-</h2>
+        </div>
+    </div>
 </template>
 
-<style scoped>
+<style lang="scss" scoped>
+@use '../styles/variables.scss' as *;
+@use '../styles/general.scss' as *;
+
+div{
+    height: 8.25rem;
+    background-color: $third-color;
+}
+.container{
+    width: $bigContainer;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    & h2{
+        color: $secondary-color;
+        font-family: $font;
+    }
+}
 </style>

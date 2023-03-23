@@ -24,12 +24,14 @@ export default {
 
 <style lang="scss" scoped>
 @use '../styles/variables.scss' as *;
+@use '../styles/general.scss' as *;
+
 
 div.container {
     height: 7.25rem;
     display: flex;
     justify-content: space-between;
-    width: 79.375rem;
+    width: $bigContainer;
     margin: auto;
     margin-top: .9375rem;
 }
