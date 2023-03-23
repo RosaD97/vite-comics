@@ -55,7 +55,7 @@ div{
     font-weight: 600;
     &.container{
         display: flex;
-        width: $bigContainer;
+        width: $Container;
         margin: auto;
         justify-content: space-between;
         color: $secondary-color;

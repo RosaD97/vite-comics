@@ -85,7 +85,7 @@ export default {
     height: 370px;
     background-position: 700px;
 
-    width: $bigContainer;
+    width: $Container;
     margin: auto;
     display: flex;
     flex-wrap: wrap;

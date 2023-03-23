@@ -31,7 +31,7 @@ div.container {
     height: 7.25rem;
     display: flex;
     justify-content: space-between;
-    width: $bigContainer;
+    width: $Container;
     margin: auto;
     margin-top: .9375rem;
 }

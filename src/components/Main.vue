@@ -23,7 +23,7 @@ div{
     background-color: $third-color;
 }
 .container{
-    width: $bigContainer;
+    width: $Container;
     margin: auto;
     display: flex;
     align-items: center;
