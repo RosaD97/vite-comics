@@ -1,10 +1,12 @@
 <script >
 import FooterTop from './FooterTop.vue';
+import FooterMid from './FooterMid.vue';
 
 export default {
     components: {
         name: 'Footer',
-        FooterTop
+        FooterTop,
+        FooterMid
     }
 }
 </script>
@@ -13,7 +15,9 @@ export default {
     <div>
         <FooterTop></FooterTop>
     </div>
+    <div>
+        <FooterMid></FooterMid>
+    </div>
 </template>
 
-<style scoped>
-</style>
+<style scoped></style>

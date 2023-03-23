@@ -1,5 +1,10 @@
 <script >
 export default {
+    data(){
+        return{
+            img: './img/dc-logo.png'
+        }
+    },
     components: {
         name: 'Logo'
     }
@@ -7,7 +12,7 @@ export default {
 </script>
 
 <template>
-    <img src="../img/dc-logo.png" alt="logo">
+    <img :src="img" alt="logo">
 </template>
 
 <style scoped>
