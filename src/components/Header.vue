@@ -35,7 +35,10 @@ div.container {
     margin: auto;
     margin-top: .9375rem;
 }
-.menu{
-    vertical-align: bottom;
+
+.menu {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 </style>

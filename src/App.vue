@@ -1,6 +1,7 @@
 <script>
 import Header from './components/Header.vue';
 import Main from './components/Main.vue';
+import FooterTop from './components/FooterTop.vue';
 import Footer from './components/Footer.vue';
 
 
@@ -9,7 +10,8 @@ export default {
   components: {
     Header,
     Main,
-    Footer
+    Footer,
+    FooterTop
   }
 }
 </script>

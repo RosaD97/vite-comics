@@ -72,7 +72,7 @@ li {
         font-size: 13px;
         font-weight: 700;
         color: $third-color;
-        padding-bottom: 20px;
+        padding-bottom: 2.875rem;
         &:hover{
             color: $primary-color;
             border-bottom: 3px solid $primary-color;
