@@ -1,15 +1,19 @@
 <script >
+import SeriesList from './SeriesList.vue';
+
 export default {
     components: {
-        name: 'Main'
+        name: 'Main',
+        SeriesList
     }
 }
 </script>
 
 <template>
     <div>
+        <div class="jumbotron"></div>
         <div class="container">
-            <h2>-Content goes here-</h2>
+            <SeriesList></SeriesList>
         </div>
     </div>
 </template>
@@ -18,18 +22,25 @@ export default {
 @use '../styles/variables.scss' as *;
 @use '../styles/general.scss' as *;
 
-div{
-    height: 8.25rem;
+div {
     background-color: $third-color;
 }
-.container{
+
+.container {
     width: $Container;
     margin: auto;
     display: flex;
     align-items: center;
-    & h2{
+    padding: 1.875rem 0 2.5rem 0;
+
+    & h2 {
         color: $secondary-color;
         font-family: $font;
     }
+}
+
+.jumbotron {
+    height: 25rem;
+    background-image: url(../../public/img/jumbotron.jpg);
 }
 </style>
